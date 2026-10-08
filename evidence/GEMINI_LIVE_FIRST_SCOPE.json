@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-07 America/Mexico_City",
+  "provider": "Gemini",
+  "configuredModel": "gemini-3.5-flash-lite",
+  "deploymentId": "appgdep_6ac722cfd6608191b8f331f39631748d",
+  "environmentRevision": 1,
+  "request": {
+    "taskId": "cash-v1",
+    "accommodation": "written"
+  },
+  "scope": "Instrucción para tarea ficticia de conciliación de caja. Realice la conciliación considerando apertura de 500, ventas en efectivo 1890, devolución en efectivo 120, gastos 250 y depósito 1000. Explique paso a paso su procedimiento. Después, revise la siguiente condición nueva: la devolución mencionada fue realizada a tarjeta y no en efectivo. Indique cómo afecta este cambio a su conciliación inicial sin revelar un resultado numérico final. Un evaluador humano revisará cuatro criterios en su respuesta: trazabilidad de los movimientos, identificación de evidencia contradictoria, explicación del impacto del cambio y declaración de supuestos o asistencia de inteligencia artificial. Esta es una evaluación acotada, gratuita para usted, sin fines comerciales ni producción real. No evalúa su capacidad general, ni otorga empleo, identidad ni certificación. Puede presentar su explicación de manera escrita o mediante preguntas posteriores como alternativa accesible si lo prefiere.",
+  "operatorReview": "Draft needs revision: ask the candidate to calculate and explain both balances; only the assistant must withhold the arithmetic answers. Written explanation should be followed by questions, rather than replaced by them.",
+  "reviewBy": "Codex, simulated operator; no live human review claimed",
+  "invitationCreated": false
+}
