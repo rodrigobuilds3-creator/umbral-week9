@@ -1,5 +1,7 @@
 # Mechanical test log - 7 October 2026
 
+Gemini preparation addendum: the model-selection/complete-response patch was built and published successfully as version 3. No additional automated tests or real provider call have been run for that patch. The 14 checks below describe the earlier recorded build and mock-provider coverage.
+
 Initial run: 14 meaningful domain/API regression tests; 13 passed, 1 failed. The failing test restored a record marked reviewed_private but without its review object. The previous validator accepted it, so the candidate screen could crash after corrupt/incomplete browser storage.
 
 Correction: restore validation now checks the review object, observation method, criteria and notes, assistance/answers, approval consistency and recipient-record shape. Malformed data triggers a visible recovery notice and fresh fictional cases rather than a crash. This validation is a resilience guard, not authentication or protection against a malicious browser owner.

@@ -37,3 +37,15 @@ On 7 October 2026 Rodrigo authorized public access. Native Sites access revision
 Repository: https://github.com/rodrigobuilds3-creator/umbral-week9
 
 The original nine commits through 0dcfed4779a2eb3f9fed3791dd2ee6ad565a09c8 were pushed intact to main after Rodrigo completed the required GitHub verification. Public-delivery documentation extends the same history. This is a source handoff, not a third application deployment.
+
+## Version 3 — Gemini preparation, succeeded
+
+Source commit: 61d9e153ff06df1b566225757e9a653d6639ce6c
+
+Version: appgprj_6ac71458dc408191b8fc0d819d18e8a7~appgver_fc4da26a42b48191bdc07192a870a07e
+
+Deployment: appgdep_6ac72112ebf08191ba9fd6fbf2cfde9a
+
+Native status: succeeded, 2026-10-08T04:50:32.647070+00:00 (7 October in Mexico City). Public audience preserved. Runtime environment revision 0, no provider key configured.
+
+Default model updated to Gemini 3.5 Flash-Lite for a new project. The server excludes thought parts, rejects incomplete responses, and explains quota failures. This is a successful code publication, not a verified live Gemini response. The same commit was pushed to GitHub main.
