@@ -4,7 +4,7 @@ A Spanish-first First-Proof workflow: bounded fictional task, named human review
 
 **Published:** https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site
 
-Access is owner-private unless explicitly changed by Rodrigo. This is a functional educational demonstration. The role selector is navigation, not authentication. Never enter real candidate or client data.
+Public access was explicitly authorized by Rodrigo and enabled on 7 October 2026. This is a functional educational demonstration. The role selector is navigation, not authentication. Never enter real candidate or client data.
 
 ## Run locally
 
@@ -38,7 +38,7 @@ Requests accept only the closed task ID and accommodation option. Candidate name
 
 The supplied Blueprint remains a draft synthesis; building this slice does not certify a live five-person team agreement. Rodrigo's individual Brain brief remains final and retains his Micro-experience preference.
 
-See `docs/DELIVERY_STATUS.md` for achieved items and missing evidence. The authenticated GitHub connector and local CLI belong to different accounts; the CLI token is invalid. No public GitHub delivery has been claimed. Sites stores the exact source commits in its managed repository.
+See `docs/DELIVERY_STATUS.md` for achieved items and missing evidence. Public source: https://github.com/rodrigobuilds3-creator/umbral-week9. The original nine build commits were pushed intact to `main`; the public-delivery documentation extends that history. Sites also preserves the pushed source states in its managed repository.
 
 ## Technical limits
 

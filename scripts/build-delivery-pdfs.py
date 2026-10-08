@@ -1,6 +1,7 @@
 from pathlib import Path
 from xml.sax.saxutils import escape
 import re
+import sys
 from reportlab.pdfgen import canvas
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Table, TableStyle, KeepTogether
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -98,6 +99,10 @@ t=Table([[left,right]],colWidths=[250,259]);t.setStyle(TableStyle([('VALIGN',(0,
 packet += [PageBreak(),Paragraph('12. Implementation specification',styles['H2U'])]+md(ROOT/'docs/BUILD_PROMPT.md')
 packet += [Paragraph('13. Delivery provenance',styles['H2U']),Paragraph('The Packet was first committed as c3a13ed before product-source code. Version 1 was published successfully from 91adef9722b03b9f083eeb818482e2a2ecc692b3. The managed source preserves meaningful commits. Version 2 succeeded from 77c26576b0d615550f7b78622e46389f13dda773 after the portable-copy refinement. Exact deployment status is recorded in docs/DEPLOYMENT_LOG.md. The supplied Blueprint is preserved outside the app repository.',styles['BodyU']),Paragraph('Sources: Team 2 Blueprint supplied by Rodrigo; Rodrigo\'s final individual Brain brief; actual app and Git history. Operating references: Riipen Educators (https://www.riipen.com/educators), Forage (https://www.theforage.com/) and official Gemini text-generation documentation (https://ai.google.dev/gemini-api/docs/text-generation). These references do not validate the proposed pilot.',styles['CaptionU'])]
 build('PACKET_Rodrigo_Pena_WEEK9.pdf','Business Bending Packet',packet)
+
+if '--packet-only' in sys.argv:
+    print('Updated Packet PDF.')
+    raise SystemExit(0)
 
 persona=intro('UMBRAL','Synthetic Persona Report / Candidate control','Generated roleplay and actual fictional browser observations. No participant interview, real human assessment, employer decision or pilot result.')+md(ROOT/'docs/PERSONA_REPORT.md')
 persona += [PageBreak(),Paragraph('8. Interface evidence',styles['H2U']),Paragraph('Actual app captures. The correction request kept the case private; the AI helper explicitly reported missing configuration. Full captures and the visible fictional JSON are retained locally with the source.',styles['BodyU'])]

@@ -27,3 +27,13 @@ Version: appgprj_6ac71458dc408191b8fc0d819d18e8a7~appgver_560ce85bdda88191a3b11f
 Deployment: appgdep_6ac71b74f9b88191aa2caaf2731f831b
 
 Native status: succeeded, 2026-10-08T04:26:36.605104+00:00 (7 October in Mexico City). Same live URL and owner-private audience. No live LLM secret configured.
+
+## Public access - explicitly authorized
+
+On 7 October 2026 Rodrigo authorized public access. Native Sites access revision 2 returned public mode. The published application opened with the actual fictional operator workspace, without the previous ChatGPT sign-in gate. This changes audience, not the two original deployment results.
+
+## Public GitHub source
+
+Repository: https://github.com/rodrigobuilds3-creator/umbral-week9
+
+The original nine commits through 0dcfed4779a2eb3f9fed3791dd2ee6ad565a09c8 were pushed intact to main after Rodrigo completed the required GitHub verification. Public-delivery documentation extends the same history. This is a source handoff, not a third application deployment.

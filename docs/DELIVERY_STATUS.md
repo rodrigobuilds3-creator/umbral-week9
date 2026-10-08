@@ -11,13 +11,13 @@ Updated 7 October 2026, Mexico City. Business Bending build: Umbral.
 | Structured data | Versioned fictional ledger and rubric with checked 1,020 / 1,140 cash reference |
 | LLM | Server-side Gemini scope endpoint wired; secret and verified live response missing |
 | Additional component | Deterministic workflow/consent guards, timer and recipient-specific export |
-| Commits | Nine meaningful source/documentation commits; exact history in Git |
+| Commits | Ten meaningful source/documentation commits; original history preserved on GitHub main |
 | Deployments | Two successful native publications; source commits and deployment IDs in docs/DEPLOYMENT_LOG.md |
 | Mechanical check | 14 passing checks after one restore-validation defect was fixed |
 | Synthetic Persona | Actual fictional browser walkthrough recorded; report explicitly synthetic |
 | Export | Visible JSON/selection and print preview observed; native file download and OS PDF saving unverified |
-| Public URL | Live owner-private URL; public access requires Rodrigo's explicit choice under Sites policy |
-| Public GitHub | Local source and managed Sites repository preserved; public GitHub not yet delivered |
+| Public URL | Public access enabled with Rodrigo's authorization; actual app opened without a sign-in gate |
+| Public GitHub | Code and original history pushed to https://github.com/rodrigobuilds3-creator/umbral-week9 on main |
 | DEMO and REFLECT | Recording scripts prepared; Rodrigo's original recordings pending |
 | BUILDCHAT | Native raw original export pending; provenance note is not a substitute |
 | Team FUSION | Actual five-person recording and live discussion pending |
