@@ -1,0 +1,55 @@
+{
+  "type": "FICTIONAL_DEMO_PROOF",
+  "notice": "Caso ficticio. No acredita evaluación real, identidad, empleabilidad ni contratación.",
+  "id": "UM-001",
+  "task": {
+    "id": "cash-v1",
+    "version": "1.0",
+    "title": "Conciliar la caja de una tienda",
+    "scope": "Explica el cierre de caja, identifica una inconsistencia y ajusta tu explicación cuando cambie una condición.",
+    "changedCondition": "La devolución de $120 se pagó a tarjeta. No salió dinero de la caja. Revisa el cierre y explica qué cambia."
+  },
+  "candidate": "Ruth (caso ficticio)",
+  "reviewer": "Elena (revisora ficticia)",
+  "organization": "Tienda La Esquina (ficticia)",
+  "answer": "Separé entradas y salidas de efectivo. Mi cierre inicial es $1,020. Revisaría los comprobantes antes de darlo por definitivo.",
+  "revision": "Si la devolución fue a tarjeta, no disminuye la caja. El cierre cambia a $1,140.",
+  "assistance": "Usé una hoja de cálculo. No utilicé IA.",
+  "review": {
+    "criteria": {
+      "trace": {
+        "status": "observed",
+        "note": "Relacionó apertura, ventas, devolución, gastos y depósito con el cierre de $1,020."
+      },
+      "discrepancy": {
+        "status": "observed",
+        "note": "Indicó que comprobaría los recibos y distinguió evidencia pendiente de una conclusión."
+      },
+      "revision": {
+        "status": "observed",
+        "note": "Explicó que una devolución a tarjeta no sale de caja y ajustó el cierre a $1,140."
+      },
+      "disclosure": {
+        "status": "observed",
+        "note": "Declaró la hoja de cálculo utilizada y explicó su procedimiento sin atribuirlo a IA."
+      }
+    },
+    "observationMethod": "written",
+    "revisionNote": "En la explicación escrita reconoció que la devolución se pagó a tarjeta y sumó los $120 que no salieron de la caja. Caso ficticio para comprobar el flujo.",
+    "changedObserved": true,
+    "seconds": 420,
+    "at": 1791432531950,
+    "complete": true
+  },
+  "candidateConfirmedAt": 1791432540484,
+  "authorization": {
+    "id": "2d9525a7-343f-48ed-ae91-e7f152ceea7d",
+    "recipient": "Tienda Sol (destinatario demo)",
+    "purpose": "Revisar esta muestra de conciliación para una conversación sobre un puesto inicial ficticio.",
+    "authorizedAt": 1791432555000,
+    "expiresAt": 1794024540000,
+    "revokedAt": null
+  },
+  "exportedAt": 1791432978932,
+  "limits": "Muestra de una tarea. Sin puntuación universal. La demo no envía el archivo. Una copia descargada no se puede retirar."
+}

@@ -9,5 +9,4 @@ evidence/*.png
 evidence/*.pdf
 *.tar.gz
 
-evidence/*.jpg
 tmp/

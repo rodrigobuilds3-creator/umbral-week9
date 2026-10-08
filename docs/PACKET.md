@@ -51,7 +51,7 @@ Fictional task: reconcile a small shop's cash drawer. Opening cash MXN 500 + cas
 
 Criteria: trace each cash movement; identify missing/contradictory evidence; explain the changed-condition adjustment; state assumptions and AI assistance. Reviewer records observed/support-needed/not-observed for each criterion, a factual note and an explanation of limits. No weighted total. The proof names reviewer, task version, observation method, revision, assistance and date.
 
-Benchmark: Riipen's institution/employer project scoping, matching and feedback workflow is the closest operating reference; Forage shows bounded simulations, sample tasks and model answers. Umbral's localization bet is Spanish-first, informal-experience recognition, short named-human review and candidate-controlled sharing. This does not establish employer preference over an existing work-sample test. Primary references to verify before publication: https://www.riipen.com/educators and https://www.theforage.com/.
+Benchmark: Riipen's institution/employer project scoping, matching and feedback workflow is the closest operating reference; Forage shows bounded simulations, sample tasks and model answers. Umbral's localization bet is Spanish-first, informal-experience recognition, short named-human review and candidate-controlled sharing. This does not establish employer preference over an existing work-sample test. Official references checked for the implementation: https://www.riipen.com/educators and https://www.theforage.com/.
 
 ## 7. Shadow clause and acceptance checks
 
@@ -70,3 +70,11 @@ Proposed pilot: 3 businesses, 12 candidates, not achieved. Stop/redesign if fewe
 If a bounded sample changes actual employer decisions and reviewer costs stay manageable, Umbral could become a small institutional evidence service with reusable task families and interoperable candidate-owned proof. It would need authenticated privacy, reviewer calibration, retention controls, accessible observation, payment/repeat-purchase evidence and local partner capacity. Do not build a marketplace before that evidence.
 
 Next evidence: compare proof versus final artifact with actual employers; observe informal-experience candidates completing the task; measure reviewer minutes; test willingness to fund repeat assessments; review candidate comprehension of recipient-specific consent. Team confirmation, videos, native build-chat export, public GitHub and a verified live LLM call remain separate delivery items.
+
+## 10. Implementation update - 7 October 2026
+
+The bounded operator workflow is implemented and its first private publication succeeded. Existing regression checks passed 14/14 after a real malformed-restored-review defect was corrected. An actual fictional browser walkthrough exercised candidate-first review, separate permission, revocation and correction followed by new private confirmation. Manual demo timer inputs are not measured pilot results.
+
+The first export path could not confirm a downloaded file in the integrated browser. It now exposes visible JSON with text selection and manual saving instructions, plus a printable proof in the current app. Native browser download and OS Save as PDF remain unverified. Actual captures and the synthetic-persona report document the limits.
+
+The Gemini drafting endpoint is wired, but the live provider secret remains missing; the UI explicitly says AI is unavailable. Production authentication, public access/GitHub, actual videos, original build-chat export and real pilot validation are not claimed complete. Published URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site.
