@@ -49,3 +49,25 @@ Deployment: appgdep_6ac72112ebf08191ba9fd6fbf2cfde9a
 Native status: succeeded, 2026-10-08T04:50:32.647070+00:00 (7 October in Mexico City). Public audience preserved. Runtime environment revision 0, no provider key configured.
 
 Default model updated to Gemini 3.5 Flash-Lite for a new project. The server excludes thought parts, rejects incomplete responses, and explains quota failures. This is a successful code publication, not a verified live Gemini response. The same commit was pushed to GitHub main.
+
+## Version 3 republished — Gemini secret applied, succeeded
+
+The already saved version 3 was republished with environment revision 1 after Rodrigo authorized the dedicated Google Cloud project and Gemini key. `GEMINI_API_KEY` is stored as a masked Sites secret. `GEMINI_MODEL` is `gemini-3.5-flash-lite`. AI Studio showed Free tier; billing was not activated.
+
+Deployment: appgdep_6ac722cfd6608191b8f331f39631748d
+
+Native status: succeeded, 2026-10-08T04:57:57.809898+00:00 (7 October in Mexico City). Public audience preserved. This was the fourth successful publication, reusing the third saved version.
+
+The actual published scope assistance action returned a Gemini draft. Codex's simulated operator review found ambiguous instructions, preserved the original response and refined the system prompt.
+
+## Version 4 — refined Gemini instructions, succeeded
+
+Source commit: 5e3eae75098a547d7fae92b92d93059c7d137566
+
+Version: appgprj_6ac71458dc408191b8fc0d819d18e8a7~appgver_0319627767748191b533a048f4510177
+
+Deployment: appgdep_6ac7237da918819188326ef5b8191337
+
+Native status: succeeded, 2026-10-08T05:00:51.711854+00:00 (7 October in Mexico City). Runtime environment revision 1, public audience preserved. This was the fifth successful publication.
+
+The prompt asks the candidate to calculate and explain both cases, with a written explanation followed by reviewer questions. The assistant itself must withhold the arithmetic answers. Subsequent real-response evidence is tracked in GEMINI_ACTIVATION.md.

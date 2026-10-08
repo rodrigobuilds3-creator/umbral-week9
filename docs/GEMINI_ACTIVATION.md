@@ -25,6 +25,10 @@ The published app's scope assistance action then returned an actual Gemini draft
 
 Codex's simulated operator review identified ambiguous wording in that first draft: it told the candidate not to reveal a final number and offered questions as an alternative to a written explanation. The system prompt was refined to request both calculations without the assistant supplying their answers, and to keep reviewer questions after the candidate's written explanation. No human candidate was assessed and no invitation was created from the initial draft.
 
+The refined prompt was published as saved version 4 from source `5e3eae75098a547d7fae92b92d93059c7d137566`, deployment `appgdep_6ac7237da918819188326ef5b8191337`, native success at 2026-10-08T05:00:51.711854Z (7 October in Mexico City), environment revision 1. A second real published-app request returned a complete draft that asks the candidate to calculate and explain both cash balances, does not reveal the answers, lists the four criteria and retains a written explanation followed by reviewer questions. Evidence: `evidence/GEMINI_LIVE_SCOPE.json` and `evidence/gemini-live.jpg`.
+
+The live drafting dependency is complete. Human market validation, original recordings, production authentication and native build-chat export remain separate tasks. The synthetic-persona PDF retains its earlier missing-key observation as historical evidence.
+
 ## Configuration sequence
 
 1. Create or select the explicitly authorized Google Cloud project without enabling billing.

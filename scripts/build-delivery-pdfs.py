@@ -2,6 +2,7 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 import re
 import sys
+import json
 from reportlab.pdfgen import canvas
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image, Table, TableStyle, KeepTogether
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -91,13 +92,19 @@ def build(filename,label,story):
     d=SimpleDocTemplate(str(OUT/filename),pagesize=(595,842),rightMargin=43,leftMargin=43,topMargin=59,bottomMargin=59,title=label,author='Rodrigo Peña León',subject='Week 9 - OPERATOR - Umbral',pageCompression=1)
     d.report_label=label.upper();d.build(story,onFirstPage=header,onLaterPages=header,canvasmaker=NumberedCanvas)
 
-packet=intro('UMBRAL','Business Bending Packet / First-Proof / OPERATOR','Functional educational demonstration. Team Blueprint draft status preserved. Live LLM activation and original recording evidence remain outstanding.')+md(ROOT/'docs/PACKET.md')
+packet=intro('UMBRAL','Business Bending Packet / First-Proof / OPERATOR','Functional educational demonstration. Live Gemini drafting verified. Team Blueprint draft status preserved; original recordings and native build-chat export remain outstanding.')+md(ROOT/'docs/PACKET.md')
 packet += [PageBreak(),Paragraph('11. Actual interface and workflow',styles['H2U']),Paragraph('Capture from the real local build. The 446-pixel viewport is the integrated browser default. Fictional states shown here are produced by the walkthrough; they are not pilot results.',styles['BodyU'])]
 left=image_card(ROOT/'evidence/build-preview.jpg',max_w=238,max_h=470)
 right=[Paragraph('A usable first rung needs an operating process',styles['H3U']),Paragraph('Named reviewer and deadlines precede the sample. The three fixture cases are labeled fictional. The ten-minute card is a proposed pilot threshold.',styles['BodyU']),Paragraph('Privacy gates',styles['H3U']),Paragraph('Invitation > explanation > human review > private candidate result > accuracy confirmation > recipient permission.',styles['BodyU']),Paragraph('Correction or substantive new review invalidates earlier approval and permission. An incomplete observation stays private and may be retried.',styles['BodyU']),Paragraph('Scope of proof',styles['H3U']),Paragraph('One fictional task with version, reviewer, observed revision, assistance disclosure and a named recipient. No universal score or promise of employment.',styles['BodyU'])]
 t=Table([[left,right]],colWidths=[250,259]);t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(0,0),12)]));packet+=[t]
 packet += [PageBreak(),Paragraph('12. Implementation specification',styles['H2U'])]+md(ROOT/'docs/BUILD_PROMPT.md')
 packet += [Paragraph('13. Delivery provenance',styles['H2U']),Paragraph('The Packet was first committed as c3a13ed before product-source code. Version 1 was published successfully from 91adef9722b03b9f083eeb818482e2a2ecc692b3. The managed source preserves meaningful commits. Version 2 succeeded from 77c26576b0d615550f7b78622e46389f13dda773 after the portable-copy refinement. Exact deployment status is recorded in docs/DEPLOYMENT_LOG.md. The supplied Blueprint is preserved outside the app repository.',styles['BodyU']),Paragraph('Sources: Team 2 Blueprint supplied by Rodrigo; Rodrigo\'s final individual Brain brief; actual app and Git history. Operating references: Riipen Educators (https://www.riipen.com/educators), Forage (https://www.theforage.com/) and official Gemini text-generation documentation (https://ai.google.dev/gemini-api/docs/text-generation). These references do not validate the proposed pilot.',styles['CaptionU'])]
+gemini=json.loads((ROOT/'evidence/GEMINI_LIVE_SCOPE.json').read_text())
+packet += [PageBreak(),Paragraph('14. Verified live Gemini drafting',styles['H2U']),callout('Observed in the published application on 7 October 2026. Model: Gemini 3.5 Flash-Lite. Server secret masked in Sites; billing not activated. No candidate data sent.'),Spacer(1,12)]
+gemini_left=image_card(ROOT/'evidence/gemini-live.jpg',max_w=238,max_h=470)
+gemini_right=[Paragraph('Actual generated scope',styles['H3U']),Paragraph(markup(gemini['scope']),styles['SmallU']),Paragraph('Review and limits',styles['H3U']),Paragraph('Codex simulated an operator review and clarified an ambiguity in the first real draft. The second real response asks for both calculations without supplying their answers. A human operator must still review every draft before inviting a candidate. No invitation or human assessment was created in this check.',styles['SmallU'])]
+gemini_table=Table([[gemini_left,gemini_right]],colWidths=[250,259]);gemini_table.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(0,0),12)]))
+packet += [gemini_table,Spacer(1,10),Paragraph('Evidence: GEMINI_LIVE_FIRST_SCOPE.json and GEMINI_LIVE_SCOPE.json. Version 4 / source 5e3eae7 / environment revision 1. Exact publication results are recorded in DEPLOYMENT_LOG.md.',styles['CaptionU'])]
 build('PACKET_Rodrigo_Pena_WEEK9.pdf','Business Bending Packet',packet)
 
 if '--packet-only' in sys.argv:

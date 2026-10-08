@@ -1,6 +1,6 @@
 # DEMO - Umbral / Rodrigo Peña León / OPERATOR
 
-Recording guide in English. Target 3:00 product demo + 0:30 personal takeaway. A script is not a recorded video. Use fictional data and say the role switch is a demo. Do not claim AI is live until configured and verified. Practice aloud to adjust pacing.
+Recording guide in English. Target 3:00 product demo + 0:30 personal takeaway. A script is not a recorded video. Use fictional data and say the role switch is a demo. Live Gemini drafting was verified on 7 October 2026. Practice aloud to adjust pacing.
 
 ## 0:00-0:25 | User and failed moment
 
@@ -28,9 +28,9 @@ Screen: candidate private result, correction, recipient form, revoked permission
 
 ## 2:05-2:35 | Dragon Stack and boundary
 
-"Structured data and deterministic workflow guards support the product. A server-side Gemini endpoint is wired only for fictional scope wording, never candidate scoring. Today it clearly reports that the provider secret is missing; I do not present that as a live LLM call. The third component is recipient-specific evidence export and its permission rules."
+"Structured data and deterministic workflow guards support the product. Gemini now generates fictional scope wording through the server, with a real response verified in this app. It never receives candidate answers or scores them. The operator reviews each draft: the first live response contained ambiguous wording, so the prompt was clarified and the next response was checked. The third component is recipient-specific evidence export and its permission rules."
 
-Screen: scope assistance message, visible JSON or print preview. If a verified live call is added later, update this segment with the actual evidence.
+Screen: open a new fictional session and show scope assistance with the Gemini success message, then visible JSON or print preview. The saved live-response capture is available if a temporary provider quota prevents a new response during recording; describe it as a prior capture.
 
 ## 2:35-3:00 | Changes and evidence
 

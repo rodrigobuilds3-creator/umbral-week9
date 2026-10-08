@@ -1,6 +1,6 @@
 # Mechanical test log - 7 October 2026
 
-Gemini preparation addendum: the model-selection/complete-response patch was built and published successfully as version 3. No additional automated tests or real provider call have been run for that patch. The 14 checks below describe the earlier recorded build and mock-provider coverage.
+Gemini activation addendum: two actual requests through the published app returned Gemini drafts with the configured model gemini-3.5-flash-lite. Codex's simulated operator review identified ambiguous instructions in the first output; the prompt was refined and the second live response requested both calculations and the proper written alternative. Both full drafts and a visible success capture are preserved under evidence/. The model and prompt patches were built and published successfully, including secret environment revision 1. No additional automated suite was run. The 14 checks below describe the earlier recorded build and mock-provider coverage.
 
 Initial run: 14 meaningful domain/API regression tests; 13 passed, 1 failed. The failing test restored a record marked reviewed_private but without its review object. The previous validator accepted it, so the candidate screen could crash after corrupt/incomplete browser storage.
 

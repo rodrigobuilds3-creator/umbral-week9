@@ -28,13 +28,13 @@ JSON is displayed in a dialog with a download link and a selection fallback. PDF
 
 ## AI configuration
 
-The optional drafting endpoint uses Gemini via a server-side `GEMINI_API_KEY`. Set that secret in the deployment environment; never put it in browser code, Git, or a chat transcript. `GEMINI_MODEL` defaults to `gemini-3.5-flash-lite`, with minimal thinking for this short drafting task. Responses cut short by token limits are rejected rather than inserted into the invitation. Setup and live verification are tracked in [Gemini activation](docs/GEMINI_ACTIVATION.md).
+The drafting endpoint uses Gemini via a server-side `GEMINI_API_KEY`. The live deployment stores that key as a masked Sites secret; never put it in browser code, Git, or a chat transcript. `GEMINI_MODEL` defaults to `gemini-3.5-flash-lite`, with minimal thinking for this short drafting task. Two real published-app drafts were observed on 7 October 2026; the first exposed ambiguous wording, the prompt was refined, and the corrected draft was verified. Responses cut short by token limits are rejected rather than inserted into the invitation. Setup and live evidence are tracked in [Gemini activation](docs/GEMINI_ACTIVATION.md).
 
 Requests accept only the closed task ID and accommodation option. Candidate names, answers, notes and judgments are excluded from the model request. Without a key, the endpoint returns a clear 503 message and the verified task remains usable. This build has **not** completed a live LLM call. Mock provider checks do not count as one.
 
 ## Evidence and delivery
 
-`docs/PACKET.md` was committed before source code. `docs/TEST_LOG.md` records one real restore-validation defect and its correction, 14 passing regression checks, browser observations and export limitations. `docs/PERSONA_REPORT.md` is explicitly synthetic. `docs/DEMO_SCRIPT.md` and `docs/REFLECTION_SCRIPT.md` are recording scripts, not videos.
+`docs/PACKET.md` was committed before source code. `docs/TEST_LOG.md` records one real restore-validation defect and its correction, 14 historical passing regression checks before the Gemini changes, browser observations and export limitations. The existing API mock fixture was aligned to the complete-response contract; no new automated suite run is claimed. `docs/PERSONA_REPORT.md` is explicitly synthetic and retains its earlier missing-key observation. `docs/DEMO_SCRIPT.md` and `docs/REFLECTION_SCRIPT.md` are recording scripts, not videos.
 
 The supplied Blueprint remains a draft synthesis; building this slice does not certify a live five-person team agreement. Rodrigo's individual Brain brief remains final and retains his Micro-experience preference.
 

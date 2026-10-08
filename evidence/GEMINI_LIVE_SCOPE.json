@@ -1,0 +1,17 @@
+{
+  "observedAt": "2026-10-07 America/Mexico_City",
+  "provider": "Gemini",
+  "configuredModel": "gemini-3.5-flash-lite",
+  "deploymentId": "appgdep_6ac7237da918819188326ef5b8191337",
+  "sourceCommit": "5e3eae75098a547d7fae92b92d93059c7d137566",
+  "environmentRevision": 1,
+  "request": {
+    "taskId": "cash-v1",
+    "accommodation": "written"
+  },
+  "scope": "Instrucción para tarea de conciliación de caja. Esta es una evaluación acotada, gratuita para ti, sin fines de producción ni valor de empleo o certificación.\nCalcula el saldo final con estos datos ficticios: fondo de apertura 500, ventas en efectivo 1890, devolución en efectivo 120, gastos menores 250 y depósito bancario 1000. Explica tu procedimiento paso a paso.\nLuego, recalcula el saldo bajo una nueva condición: la devolución mencionada no fue en efectivo, sino a tarjeta. Comunica y justifica claramente tus resultados finales.\nUn evaluador humano revisará tu desempeño según cuatro criterios: trazar los movimientos, identificar evidencia contradictoria, explicar el impacto del cambio y declarar supuestos junto con cualquier asistencia de IA utilizada.\nOfrecemos explicación escrita seguida de preguntas del revisor como alternativa accesible; toma en cuenta que las preguntas no sustituyen a la explicación requerida.",
+  "visibleStatus": "Redacción con IA (Gemini). Revísala; no evalúa capacidad.",
+  "reviewBy": "Codex, simulated operator; no live human review claimed",
+  "reviewNotes": "The draft asks the candidate to calculate and justify both balances without disclosing the answers; includes the four criteria and a written explanation followed by reviewer questions.",
+  "invitationCreated": false
+}

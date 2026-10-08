@@ -37,7 +37,7 @@ State rules: invited -> submitted -> reviewed_private -> correction_requested ->
 
 ## 5. Dragon Stack
 
-LLM: a server-side drafting assistant for routine wording of scope, accommodation and rubric, grounded in the selected template. It must not evaluate a candidate, rank, reject, verify identity or infer employability. Provider key remains server-side. Without a configured key, show that AI is unavailable and let the verified template workflow continue. Do not label the deterministic fallback as LLM output. Live LLM activation is a delivery dependency until a valid provider secret and live call are verified.
+LLM: a server-side Gemini 3.5 Flash-Lite drafting assistant for routine wording of scope and accommodation, grounded in the selected template and its four human-review criteria. It must not evaluate a candidate, rank, reject, verify identity or infer employability. The provider key is stored as a masked server secret. Actual live drafting was verified on 7 October 2026. If the provider is unavailable, show that status and let the verified template workflow continue; never label the deterministic fallback as LLM output. The operator must review generated wording before creating an invitation.
 
 Structured/verified data: versioned template JSON, explicit criterion definitions, synthetic ledger rows, a manually checked reference calculation, provenance, allowed state transitions and consent/event records. These data establish the fictional exercise arithmetic, not actual skill or demand.
 
@@ -69,7 +69,7 @@ Proposed pilot: 3 businesses, 12 candidates, not achieved. Stop/redesign if fewe
 
 If a bounded sample changes actual employer decisions and reviewer costs stay manageable, Umbral could become a small institutional evidence service with reusable task families and interoperable candidate-owned proof. It would need authenticated privacy, reviewer calibration, retention controls, accessible observation, payment/repeat-purchase evidence and local partner capacity. Do not build a marketplace before that evidence.
 
-Next evidence: compare proof versus final artifact with actual employers; observe informal-experience candidates completing the task; measure reviewer minutes; test willingness to fund repeat assessments; review candidate comprehension of recipient-specific consent. Team confirmation, videos, native build-chat export, public GitHub and a verified live LLM call remain separate delivery items.
+Next evidence: compare proof versus final artifact with actual employers; observe informal-experience candidates completing the task; measure reviewer minutes; test willingness to fund repeat assessments; review candidate comprehension of recipient-specific consent. Public GitHub delivery and live Gemini drafting are now verified. Team confirmation, original videos and native build-chat export remain separate delivery items.
 
 ## 10. Implementation update - 7 October 2026
 
@@ -77,8 +77,16 @@ The bounded operator workflow is implemented and two private publications succee
 
 The first export path could not confirm a downloaded file in the integrated browser. It now exposes visible JSON with text selection and manual saving instructions, plus a printable proof in the current app. Native browser download and OS Save as PDF remain unverified. Actual captures and the synthetic-persona report document the limits.
 
-The Gemini drafting endpoint is wired, but the live provider secret remains missing; the UI explicitly says AI is unavailable. Public access was enabled with Rodrigo's explicit authorization on 7 October and the actual application opened without a sign-in gate. Code and the original nine build commits were uploaded to the public GitHub repository. Production authentication, actual videos, original build-chat export and real pilot validation are not claimed complete. Version 2 was published successfully from commit 77c26576b0d615550f7b78622e46389f13dda773 after the export refinement. Published URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site.
+The initial Gemini check reported a missing provider secret; that historical observation remains in the synthetic-persona report. Gemini was subsequently configured and two real drafts were observed as described below. Public access was enabled with Rodrigo's explicit authorization on 7 October and the actual application opened without a sign-in gate. Code and the original build history were uploaded to the public GitHub repository. Production authentication, actual videos, original build-chat export and real pilot validation are not claimed complete. Version 2 was published successfully from commit 77c26576b0d615550f7b78622e46389f13dda773 after the export refinement. Published URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site.
 
 ### Public handoff - 7 October 2026
 
 Rodrigo explicitly authorized public access and GitHub delivery. Sites access revision 2 confirms public mode. The published application was observed opening with the fictional operator workspace instead of the previous sign-in gate. The public GitHub repository was created at https://github.com/rodrigobuilds3-creator/umbral-week9. After Rodrigo completed GitHub's email verification, the original nine build commits were pushed intact to main. The public-delivery documentation extends that history. The original local history and source bundle remain preserved.
+
+### Live Gemini update - 7 October 2026
+
+Rodrigo authorized the dedicated Umbral Week 9 Google project and Gemini key. AI Studio showed Free tier; billing was not enabled. Sites environment revision 1 stores the key as a masked secret. The code uses Gemini 3.5 Flash-Lite for closed-template drafting, never candidate assessment.
+
+Two actual published-app requests returned Gemini text. Codex's simulated operator review found that the first draft wrongly told the candidate to withhold the final number. The prompt was clarified so the candidate calculates and explains both cases while the assistant withholds the answers. A second live response correctly requested both balances, the four review criteria, and a written explanation followed by reviewer questions. Neither request sent a candidate name or answer; no invitation or human assessment was created from this check.
+
+Five native publications have succeeded across four saved versions, including the secret activation and corrected-prompt publication. Version 4 uses source 5e3eae75098a547d7fae92b92d93059c7d137566. Full responses, the visible Gemini success message and exact deployment results are preserved in the evidence and logs. Automated regression results remain historical; no new suite run is claimed for the Gemini change.
