@@ -17,3 +17,5 @@ Actual viewport: 446px, no horizontal overflow observed. The browser viewport ov
 Export limitation observed: automatic-download waiting and file-link download timed out in the integrated browser. Changed to a visible copy dialog, standard download link, selectable full JSON and in-app printable proof. JSON copied from the visible textarea was saved as fictional evidence; native browser file download and OS PDF saving remain unverified. Do not call this a confirmed file download. Browser-native printing is not an application-hosted PDF renderer.
 
 Evidence is synthetic, not an employer/candidate study or a measured pilot. Deletion was not exercised. No claims of real hiring decisions, payment or 10-minute median were made.
+
+Two actual private publications succeeded: initial workflow at source 91adef9, then the portable-copy/print refinement and documented walkthrough at 77c2657. Exact native results are in DEPLOYMENT_LOG.md.

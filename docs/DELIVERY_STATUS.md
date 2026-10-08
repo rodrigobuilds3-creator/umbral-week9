@@ -11,8 +11,8 @@ Updated 7 October 2026, Mexico City. Business Bending build: Umbral.
 | Structured data | Versioned fictional ledger and rubric with checked 1,020 / 1,140 cash reference |
 | LLM | Server-side Gemini scope endpoint wired; secret and verified live response missing |
 | Additional component | Deterministic workflow/consent guards, timer and recipient-specific export |
-| Commits | At least seven meaningful source commits; exact history in Git |
-| Deployments | Version 1 succeeded; version 2 being finalized |
+| Commits | Nine meaningful source/documentation commits; exact history in Git |
+| Deployments | Two successful native publications; source commits and deployment IDs in docs/DEPLOYMENT_LOG.md |
 | Mechanical check | 14 passing checks after one restore-validation defect was fixed |
 | Synthetic Persona | Actual fictional browser walkthrough recorded; report explicitly synthetic |
 | Export | Visible JSON/selection and print preview observed; native file download and OS PDF saving unverified |

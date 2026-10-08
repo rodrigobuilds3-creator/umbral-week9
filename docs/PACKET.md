@@ -73,8 +73,8 @@ Next evidence: compare proof versus final artifact with actual employers; observ
 
 ## 10. Implementation update - 7 October 2026
 
-The bounded operator workflow is implemented and its first private publication succeeded. Existing regression checks passed 14/14 after a real malformed-restored-review defect was corrected. An actual fictional browser walkthrough exercised candidate-first review, separate permission, revocation and correction followed by new private confirmation. Manual demo timer inputs are not measured pilot results.
+The bounded operator workflow is implemented and two private publications succeeded. Existing regression checks passed 14/14 after a real malformed-restored-review defect was corrected. An actual fictional browser walkthrough exercised candidate-first review, separate permission, revocation and correction followed by new private confirmation. Manual demo timer inputs are not measured pilot results.
 
 The first export path could not confirm a downloaded file in the integrated browser. It now exposes visible JSON with text selection and manual saving instructions, plus a printable proof in the current app. Native browser download and OS Save as PDF remain unverified. Actual captures and the synthetic-persona report document the limits.
 
-The Gemini drafting endpoint is wired, but the live provider secret remains missing; the UI explicitly says AI is unavailable. Production authentication, public access/GitHub, actual videos, original build-chat export and real pilot validation are not claimed complete. Published URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site.
+The Gemini drafting endpoint is wired, but the live provider secret remains missing; the UI explicitly says AI is unavailable. Production authentication, public access/GitHub, actual videos, original build-chat export and real pilot validation are not claimed complete. Version 2 was published successfully from commit 77c26576b0d615550f7b78622e46389f13dda773 after the export refinement. Published URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site.
