@@ -15,4 +15,19 @@ export function revokeShare(session,id,now=Date.now()){const s=copy(session),x=s
 export function restartSession(session,now=Date.now()){check(session.review&&!session.review.complete,'La repetición se ofrece cuando faltan observaciones.');const s=copy(session);Object.assign(s,{state:'invited',answer:'',revision:'',assistance:'',review:null,correction:null,approvedAt:null,shares:[]});return event(s,'restarted','Nueva oportunidad sin etiqueta de fracaso.',now);}
 export function createProof(s,id,now=Date.now()){const x=s.shares?.find(x=>x.id===id);check(s.approvedAt&&s.review?.complete&&!s.correction,'El registro cambió o sigue pendiente.');check(x&&!x.revokedAt&&x.expiresAt>now,'Permiso vencido o revocado.');return {type:'FICTIONAL_DEMO_PROOF',notice:'Caso ficticio. No acredita evaluación real, identidad, empleabilidad ni contratación.',id:s.id,task:{id:TASK.id,version:TASK.version,title:TASK.title,scope:TASK.scope,changedCondition:TASK.changedCondition},candidate:s.candidate,reviewer:s.reviewer,organization:s.organization,answer:s.answer,revision:s.revision,assistance:s.assistance,review:copy(s.review),candidateConfirmedAt:s.approvedAt,authorization:copy(x),exportedAt:now,limits:'Muestra de una tarea. Sin puntuación universal. La demo no envía el archivo. Una copia descargada no se puede retirar.'};}
 export function referenceClosing(changed=false){return TASK.opening+TASK.rows.reduce((sum,r)=>sum+(changed&&r.label.includes('Devolución')?0:r.direction*r.amount),0);}
-export function validateSavedState(v){check(v&&v.schema===1&&Array.isArray(v.sessions)&&v.sessions.length<=100,'Formato local desconocido.');const ids=new Set();for(const s of v.sessions){check(s&&typeof s.id==='string'&&!ids.has(s.id)&&s.taskId===TASK.id&&STATES[s.state]&&Array.isArray(s.events),'Sesión local inválida.');ids.add(s.id);check(Number.isFinite(s.reviewDueAt)&&Number.isFinite(s.dueAt),'Plazos locales inválidos.');}return v.sessions;}
+export function validateSavedState(v){
+ check(v&&v.schema===1&&Array.isArray(v.sessions)&&v.sessions.length<=100,'Formato local desconocido.');const ids=new Set();
+ for(const s of v.sessions){
+  check(s&&typeof s.id==='string'&&!ids.has(s.id)&&s.taskId===TASK.id&&STATES[s.state]&&Array.isArray(s.events),'Sesión local inválida.');ids.add(s.id);
+  text(s.candidate,2,80,'Alias');text(s.reviewer,2,100,'Revisor');text(s.organization,2,100,'Organización');check(Number.isFinite(s.reviewDueAt)&&Number.isFinite(s.dueAt),'Plazos locales inválidos.');
+  if(s.state!=='invited'){text(s.answer,30,3000,'Explicación');text(s.revision,20,2000,'Revisión');text(s.assistance,5,1000,'Asistencia');}
+  if(!['invited','submitted'].includes(s.state)){
+   check(s.review&&s.review.changedObserved===true&&['written','video','in_person'].includes(s.review.observationMethod)&&Number.isFinite(s.review.at)&&Number.isFinite(s.review.seconds),'Revisión local incompleta.');
+   for(const c of TASK.criteria){const row=s.review.criteria?.[c.id];check(row&&Object.keys({observed:1,support_needed:1,not_observed:1}).includes(row.status),'Criterio local inválido.');text(row.note,8,1000,'Evidencia');}
+   text(s.review.revisionNote,20,1500,'Observación');check(s.review.complete===TASK.criteria.every(c=>s.review.criteria[c.id].status==='observed'),'Estado de revisión inconsistente.');
+  }
+  if(s.state==='correction_requested')check(s.correction&&typeof s.correction.note==='string','Corrección local incompleta.');
+  if(['approved_private','authorized'].includes(s.state))check(Number.isFinite(s.approvedAt)&&s.approvedAt>0&&s.review?.complete&&!s.correction,'Confirmación local inválida.');
+  if(s.shares){check(Array.isArray(s.shares)&&s.shares.length<=100,'Permisos locales inválidos.');for(const x of s.shares)check(x&&typeof x.id==='string'&&typeof x.recipient==='string'&&typeof x.purpose==='string'&&Number.isFinite(x.expiresAt)&&Number.isFinite(x.authorizedAt)&&(!x.revokedAt||Number.isFinite(x.revokedAt)),'Permiso local incompleto.');}
+ }return v.sessions;
+}
