@@ -1,0 +1,2 @@
+const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'}});
+export default {async fetch(request,env){const url=new URL(request.url);if(url.pathname==='/api/status')return json({llmConfigured:false,mode:'fictional-demo'});if(url.pathname==='/api/draft')return json({error:'AI_UNAVAILABLE',message:'La asistencia con IA todavía no está configurada. Puedes usar la plantilla revisada.'},503);return env.ASSETS.fetch(request);}};

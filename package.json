@@ -1,0 +1,1 @@
+{"name":"umbral-week9-operator","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"node scripts/dev.mjs","build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs","check":"node --check src/public/app.js && node --check src/public/domain.js && node --check src/worker.mjs"},"engines":{"node":">=20"}}
