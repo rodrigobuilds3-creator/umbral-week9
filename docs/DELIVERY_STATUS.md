@@ -5,7 +5,7 @@ Updated 11 October 2026, Mexico City. These statuses separate ready files from p
 | Item | Actual status |
 |---|---|
 | Final individual Brain brief | Final two-page original preserved |
-| Brain raw CHAT | Actual 38-message visible preparation exchange exported; personal 40-minute adversarial research not evidenced; no simulated dialogue relabeled |
+| Brain raw CHAT | Actual 38-message visible preparation exchange plus unchanged original 18-page Codex-operated ChatGPT research export; personal 40-minute adversarial research not evidenced; no simulated dialogue relabeled |
 | Team Blueprint | Supplied draft preserved; actual final agreement and contributors still need evidence |
 | FUSION | Original team video missing: 5-8 minutes, one take, contributors on camera |
 | Packet | Core c3a13ed before code; imagegen mockup, Mermaid flow/lanes, stack table, success statement and commit plan completed later during audit; chronology limitation disclosed |
@@ -17,7 +17,7 @@ Updated 11 October 2026, Mexico City. These statuses separate ready files from p
 | BUILDCHAT | 61 original visible messages exported locally through stated UTC cutoff, original tool inputs companion, provenance/hash; no hidden reasoning exported |
 | Separate weekly Project/chat requirement | Original build occurred in this actual Codex chat; same-week LLM Project plus separate Brain/Build chats is not evidenced |
 | DECISIONS | First created during audit; earlier history explicitly retrospective; tomorrow first move recorded |
-| Git/deployments | Original meaningful history preserved; at least 14 original commits and 5 successful native publications; current audit publication recorded separately |
+| Git/deployments | Original meaningful history preserved; 14 original commits plus audit changes; 6 successful native publications across 5 saved versions; latest executable source 2a94128 |
 | Public links | Sites public audience and GitHub private=false verified; exact URLs below |
 | DEMO | Ready 3:30 edited actual-app walkthrough, 3:00 demo + 0:30 drafted closing, disclosed synthetic English narration |
 | REFLECT | Original two-minute conversational camera video still missing; script is preparation only |

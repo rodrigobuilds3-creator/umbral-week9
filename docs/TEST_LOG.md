@@ -26,3 +26,6 @@ Two actual private publications succeeded: initial workflow at source 91adef9, t
 ## Audit recheck - 11 October 2026
 
 Current edited source: 14/14 tests pass, 0 failed, 0 skipped. Command: node --test tests/*.test.mjs. Browser app syntax check and scripts/build.mjs also succeeded. An earlier attempted command used nonexistent test filenames and was corrected; its failure is not counted as a test pass. Provider responses remain mocks. This rerun verifies the post-Gemini source and persona copy/layout patch, not real employer decisions or production authentication.
+
+
+Production follow-up: version 5 source 2a94128 published successfully with environment revision 1. Actual public UI showed the clarified private confirmation and optional permission on the existing fictional Mara record; old recipient remained revoked. Intake DOM length/type/required attributes were inspected in production and preserved locally. This confirms deployed limits are present; it is not a penetration test or real-user privacy claim.

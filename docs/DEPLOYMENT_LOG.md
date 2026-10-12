@@ -71,3 +71,16 @@ Deployment: appgdep_6ac7237da918819188326ef5b8191337
 Native status: succeeded, 2026-10-08T05:00:51.711854+00:00 (7 October in Mexico City). Runtime environment revision 1, public audience preserved. This was the fifth successful publication.
 
 The prompt asks the candidate to calculate and explain both cases, with a written explanation followed by reviewer questions. The assistant itself must withhold the arithmetic answers. Subsequent real-response evidence is tracked in GEMINI_ACTIVATION.md.
+
+
+## Version 5 - fresh persona privacy correction, succeeded
+
+Date: 11 October 2026, Mexico City. Source commit: 2a9412800b6b3c3dcfc835825097e86817562954.
+
+Version: appgprj_6ac71458dc408191b8fc0d819d18e8a7~appgver_1141a21d085881918317df2ceb53c548
+Deployment: appgdep_6acc2b6557908191b624a5784c33169b
+Native status: succeeded, 2026-10-12T00:35:55.589417+00:00. Environment revision 1; existing public audience retained.
+
+Sixth successful native publication across five saved versions. A fresh screenshot persona prompted explicit separation of accuracy confirmation, optional recipient authorization and local export/no automatic sending. Status toast now reserves document flow. Production inspection confirmed the new privacy card in the existing fictional Mara record and the input limits: alias 2-80, reviewer/organization 2-100, scope note max 1,200; dates and scope checkbox required. No new personal data or invitation was created. Current source passed 14/14 checks. The same source was pushed to GitHub main.
+
+URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site

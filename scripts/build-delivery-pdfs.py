@@ -208,7 +208,7 @@ if not (audit/'sources/RAW_EXPORT_PROVENANCE.json').exists():
 provenance=json.loads((audit/'sources/RAW_EXPORT_PROVENANCE.json').read_text())
 for kind in ['CHAT','BUILDCHAT']:
     name=kind+'_Rodrigo_Pena_WEEK9'; messages=json.loads((audit/'sources'/(name+'.json')).read_text())
-    note=('Original visible Brain preparation exchange. This is NOT evidence of a personal 40-minute research fight; the generated/simulated argument is not relabeled as human participation.' if kind=='CHAT' else 'Original visible development exchange recovered from this actual Codex chat. No reconstructed dialogue. Original tool inputs accompany the upload package; tool internals, binary media and hidden reasoning are excluded.')
+    note=('Original visible Brain preparation exchange, followed by the unchanged 18-page ChatGPT research export. That research was operated by Codex and retains its simulated-position labels; neither section certifies a personal 40-minute research fight.' if kind=='CHAT' else 'Original visible development exchange recovered from this actual Codex chat. No reconstructed dialogue. Original tool inputs accompany the upload package; tool internals, binary media and hidden reasoning are excluded.')
     story=intro('UMBRAL',kind+' / Original visible conversation',note)
     story += [Paragraph('Source session: '+provenance['session_id'],styles['CaptionU']),Paragraph('Export cutoff (UTC): '+provenance['cutoff_utc'],styles['CaptionU']),Paragraph('Source SHA-256: '+provenance['source_sha256'],styles['CaptionU']),Paragraph(str(len(messages))+' original visible messages in this range. Machine timestamps and text are retained; ambient context remains identified in its original message.',styles['BodyU'])]
     for i,m in enumerate(messages):
@@ -219,5 +219,14 @@ for kind in ['CHAT','BUILDCHAT']:
     if kind=='CHAT':
         saved=OUT;OUT=destination
     build(name+'.pdf',kind+' original visible conversation',story)
-    if kind=='CHAT':OUT=saved
+    if kind=='CHAT':
+        from pypdf import PdfReader, PdfWriter
+        research=ROOT.parent.parent/'01_brain_bending/CHAT_WEEK9_CODEX_SIMULATED_RAW.pdf'
+        if research.exists():
+            target=destination/(name+'.pdf');writer=PdfWriter()
+            for source in [target,research]:
+                for page in PdfReader(source).pages:writer.add_page(page)
+            writer.add_metadata({'/Title':'Week 9 Brain - original preparation and Codex-operated research exports','/Author':'Rodrigo Peña de León','/Subject':'Actual visible exports; synthetic research positions disclosed'})
+            with target.open('wb') as f:writer.write(f)
+        OUT=saved
 print('Updated Packet/Persona and exported original CHAT/BUILDCHAT PDFs.')
