@@ -10,3 +10,6 @@ evidence/*.pdf
 *.tar.gz
 
 tmp/
+
+output/video/
+output/pdf/BUILDCHAT*.pdf

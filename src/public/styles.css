@@ -3,3 +3,6 @@
 
 #export-json{font:12px/1.5 ui-monospace,monospace;min-height:180px}#proof-preview{margin-top:22px}#proof-preview h1{font-size:27px;margin:12px 0}#proof-preview h2{margin-top:22px}#proof-preview p{white-space:pre-wrap;overflow-wrap:anywhere}.pill{font-size:13px}.timeline div{font-size:12px}.page-footer{font-size:12px}
 @media print{body:has(#proof-preview)>.rail,body:has(#proof-preview)>.main-shell,body:has(#proof-preview)>#toast,body:has(#proof-preview)>.skip{display:none!important}body:has(#proof-preview){background:white;color:#152744}dialog:has(#proof-preview){position:static;inset:auto;transform:none;max-height:none;max-width:none;width:100%;height:auto;border:0;box-shadow:none;padding:0;overflow:visible}dialog:has(#proof-preview)::backdrop{background:white}.dialog-head:has(~#proof-preview),dialog:has(#proof-preview) .dialog-head,.print-controls{display:none!important}#proof-preview{font:12pt/1.5 system-ui;margin:0;color:#152744}#proof-preview .result-criterion{break-inside:avoid}#proof-preview h2{break-after:avoid}#proof-preview .hint{color:#33415a;font-size:10pt}@page{margin:16mm}}
+
+/* Persona visual review, 11 October 2026: status messages reserve layout space. */
+#toast{position:static;transform:none;max-width:850px;margin:0 auto 20px;box-shadow:none}#toast.show{display:block}

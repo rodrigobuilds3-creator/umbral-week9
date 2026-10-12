@@ -1,28 +1,30 @@
 # Week 9 delivery status
 
-Updated 7 October 2026, Mexico City. Business Bending build: Umbral.
+Updated 11 October 2026, Mexico City. These statuses separate ready files from process/evidence limits.
 
 | Item | Actual status |
 |---|---|
-| Final individual Brain brief | Existing final two-page PDF; unchanged |
-| Source Team Blueprint | Supplied draft preserved; live five-role agreement not verified |
-| Packet before code | Committed as c3a13ed before product-source commits |
-| Functional operator build | Invitation, task, review, candidate correction/approval, recipient authorization/revocation and portable view implemented |
-| Structured data | Versioned fictional ledger and rubric with checked 1,020 / 1,140 cash reference |
-| LLM | Gemini 3.5 Flash-Lite active; masked server secret; two real published-app drafts observed; prompt clarified and corrected draft verified |
-| Additional component | Deterministic workflow/consent guards, timer and recipient-specific export |
-| Commits | Original meaningful build history preserved on GitHub main; Gemini preparation extends that history |
-| Deployments | Five successful native publications across four saved versions; source commits and deployment IDs in docs/DEPLOYMENT_LOG.md |
-| Mechanical check | 14 checks passed before the Gemini model preparation patch, after a restore-validation defect was fixed; no new test run claimed |
-| Synthetic Persona | Actual fictional browser walkthrough recorded; report explicitly synthetic |
-| Export | Visible JSON/selection and print preview observed; native file download and OS PDF saving unverified |
-| Public URL | Public access enabled with Rodrigo's authorization; actual app opened without a sign-in gate |
-| Public GitHub | Code and original history pushed to https://github.com/rodrigobuilds3-creator/umbral-week9 on main |
-| DEMO and REFLECT | Recording scripts prepared; Rodrigo's original recordings pending |
-| BUILDCHAT | Native raw original export pending; provenance note is not a substitute |
-| Team FUSION | Actual five-person recording and live discussion pending |
-| Real pilot | No candidates/businesses observed; payment/review thresholds are proposals |
+| Final individual Brain brief | Final two-page original preserved |
+| Brain raw CHAT | Actual 38-message visible preparation exchange exported; personal 40-minute adversarial research not evidenced; no simulated dialogue relabeled |
+| Team Blueprint | Supplied draft preserved; actual final agreement and contributors still need evidence |
+| FUSION | Original team video missing: 5-8 minutes, one take, contributors on camera |
+| Packet | Core c3a13ed before code; imagegen mockup, Mermaid flow/lanes, stack table, success statement and commit plan completed later during audit; chronology limitation disclosed |
+| Working build | Bounded fictional task, named reviewer, candidate-first correction/confirmation, separate recipient permission and local export |
+| Dragon Stack | Real Gemini drafting + versioned checked ledger/rubric + consent workflow/timer/export |
+| LLM/data limits | Masked server secret; no candidate data sent to model; no real-user authentication/DB claimed |
+| Mechanical checks | Latest edited source passed 14/14 on 11 October; provider mocks are distinct from earlier real Gemini drafts |
+| Persona | Fresh AI Studio chat, six ordered real screenshots, original response, worst confusion fixed, actual after screenshot retested; remaining doubts logged |
+| BUILDCHAT | 61 original visible messages exported locally through stated UTC cutoff, original tool inputs companion, provenance/hash; no hidden reasoning exported |
+| Separate weekly Project/chat requirement | Original build occurred in this actual Codex chat; same-week LLM Project plus separate Brain/Build chats is not evidenced |
+| DECISIONS | First created during audit; earlier history explicitly retrospective; tomorrow first move recorded |
+| Git/deployments | Original meaningful history preserved; at least 14 original commits and 5 successful native publications; current audit publication recorded separately |
+| Public links | Sites public audience and GitHub private=false verified; exact URLs below |
+| DEMO | Ready 3:30 edited actual-app walkthrough, 3:00 demo + 0:30 drafted closing, disclosed synthetic English narration |
+| REFLECT | Original two-minute conversational camera video still missing; script is preparation only |
+| Real pilot | Unperformed; targets and review-cost numbers remain proposals |
+| Export portability | Visible JSON/selection/print preview observed; native download and OS Save as PDF not verified |
 
-Published URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site
+URL: https://umbral-week9-rodrigo.j6x567qt8g.chatgpt.site
+GitHub: https://github.com/rodrigobuilds3-creator/umbral-week9
 
-Prepared artifacts: output/pdf/PACKET_Rodrigo_Pena_WEEK9.pdf updated with live Gemini evidence, and output/pdf/PERSONA_Rodrigo_Pena_WEEK9.pdf (four pages, historical synthetic walkthrough). Do not submit scripts as videos or simulated chats as real sessions.
+No Brightspace submission was performed in this audit. Human recordings and agreement cannot be fabricated. The genuine Brain CHAT can be submitted honestly, but its depth/process requirement is not certified complete.

@@ -1,7 +1,5 @@
-# Native build conversation evidence
+# Original build conversation recovered
 
-The original build was performed in the current Codex chat following Rodrigo's request to start the next deliverables and build from the attached Team 2 Blueprint.
+On 11 October 2026, the actual native current-chat record was read locally. A direct export now preserves every original user/assistant visible message from the attached-Blueprint build request through the stated cutoff, without translating, reconstructing dialogue or substituting a summary. Hidden reasoning and internal system instructions are excluded. Original tool inputs are retained in a separate technical appendix, with credential redaction where needed.
 
-This file is a provenance note, not a raw export. The implementation prompt, Packet, Git commits and build logs document the work, but they do not replace the original conversation transcript. No BUILDCHAT PDF has been fabricated from a summary or reconstructed dialogue.
-
-To complete that evidence, use the native export/print of this actual Codex chat, including the original user messages and the complete build exchange. Preserve the original file; check that all turns are present before naming it BUILDCHAT_Rodrigo_Pena_WEEK9.pdf.
+The provenance file gives source SHA-256, UTC cutoff, message counts and exclusions. Private raw exports stay outside this public app repository in the Week 9 audit sources and upload folder. BUILDCHAT_Rodrigo_Pena_WEEK9.pdf is the formatted visible-message export. This export does not prove that Brain and Build occurred as two chats inside one weekly LLM Project; the work was performed in the actual current Codex chat.

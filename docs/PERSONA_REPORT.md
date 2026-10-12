@@ -1,69 +1,42 @@
-# UMBRAL - Synthetic Persona Report
+# UMBRAL - Fresh Synthetic Persona Report
 
-Rodrigo Peña León - OPERATOR - Week 9 - 7 October 2026
+Rodrigo Peña León - OPERATOR - 11 October 2026
 
-## 1. Method and evidence boundary
+## 1. Fresh-chat method
 
-This is a Codex-generated synthetic persona exercise using the actual Umbral interface and fictional records. No candidate or employer was interviewed. Codex operated the candidate and reviewer views; the reviewer notes are simulated, not a real human assessment. The exercise checks workflow behavior and interpretation risks. It cannot validate demand, fairness, accessibility or hiring outcomes.
+Google AI Studio, new empty Playground conversation, Gemini 3.5 Flash-Lite, thinking Minimal, search off. The model received only an invented Ruth profile and six real Umbral screenshots in order, without build history or a suggested defect. No API credential was needed for this chat; no billing was activated. The copyright acknowledgement was explicitly authorized by Rodrigo. Drive access was declined; original prompts/responses and screenshots were saved locally.
 
-The prompt is preserved in docs/PERSONA_PROMPT.md. Captures come from the actual local app at http://127.0.0.1:4179, not invented mockups. The browser viewport was 446 pixels wide; a requested desktop override did not change the measured DOM width, so a desktop-size pass is not claimed.
+The screenshots are actual fictional app states, not the image-generated mockup: 1 task (02-task.jpg), 2 candidate explanation (04-candidate.jpg), 3 private result (06-private.jpg), 4 correction dialog (07-correction.jpg), 5 individual recipient permission (09-permission.jpg), 6 printable proof (11-proof.jpg). The model did not click, observe a human or access an employer. Full captures and DOM source text accompany the private audit.
 
-## 2. Invented persona and failed moment
+## 2. Persona and prompt
 
-Ruth, 24, has helped a family shop reconcile cash but lacks a formal credential. She can explain her procedure in writing and uses a spreadsheet. She wants to demonstrate one skill without losing control of mistaken feedback or exposing a private incomplete attempt. This profile is an invented stress case, not a claim about Mexican candidates.
+Ruth, 24, helped reconcile cash in a family shop, lacks a formal credential, prefers written explanation, and fears mistaken feedback reaching an employer. This is a fictional stress case. The prompt asks for first-person interpretation, next step, hesitation, abandonment, every confusion, exact visible causes, worst issue and a screenshot retest. Unreadable content and assumptions must be identified; no invented actions or results.
 
-Operator counterpart: a career-office coordinator with little reviewer capacity. The coordinator needs a named reviewer and date, usable notes, an observable revision and a measured review cost. A complete-looking proof alone does not show an employer will fund it.
+## 3. Complete confusion log
 
-## 3. Synthetic dialogue and interpretation
+1. Task/proof purpose: formal assessment styling versus the labels that prohibit client production and deny certification/hiring evidence. Ruth might doubt whether this is useful or whether mathematical errors are allowed.
+2. Review timing: the demo correction example mentions eight minutes, which the candidate might mistake for a speed requirement. These were manually entered illustrative reviewer minutes, not measured skill or a pilot median.
+3. Assistance and written alternative: the demonstration's prefilled Codex authorship disclosure might look like required user text; whether written reviewer questions require a live meeting is unclear.
+4. Accuracy versus sharing, highest priority: the confirmation checkbox and warning that downloaded copies cannot be recalled cause fear that confirmation publishes/sends the record automatically.
+5. Status toast overlaps lower content in the private-result capture.
+6. Retest addition: after confirmation, the next visible step/ending remains uncertain; claims that data stay local cannot be verified from a static screenshot.
 
-The following exchange is generated roleplay, not a participant transcript.
+The model also supplied CONDITIONAL abandonment scenarios (bank connection, forced installation, automatic job-board exposure, correction penalty, compulsory real sharing, unconsented external sending). None occurred in the app and none is reported as an observed defect. The model misnamed the proof heading as Comprador; the actual capture is a proof/print preview. This interpretation error is retained rather than adopted as product fact.
 
-Ruth: "Who will read this, and can I explain it in writing?"
+## 4. Actual fix and visual retest
 
-Facilitator interpretation: the invitation displays the assigned fictional reviewer, delivery/review dates, rubric and a written explanation option. This supports orientation; a real user comprehension check is still needed.
+On 11 October, the candidate card now says confirmation only indicates the record is correct, does not authorize sharing/send to an employer, and may end privately. The checkbox repeats that it does not authorize sharing. The confirmed-state message says no copy has been sent. Recipient permission is explicitly optional and only enables a local copy. The toast now occupies document flow instead of overlaying controls.
 
-Ruth: "If I press Confirmar y mantener privado, have I sent it to a shop?"
+A new actual screenshot of Ruth UM-001 in the local updated app was attached to the SAME fresh persona chat for retest. The prompt did not assert success. Gemini quoted the new copy accurately, understood the distinction, and answered that ending privately was possible visually. It still expressed lessened but continuing fear and could not verify the button behavior or storage architecture from the image. This is an improved synthetic interpretation, not proof of user comprehension or production security.
 
-Facilitator interpretation: no. Accuracy confirmation retains a private state. Recipient authorization requires a separate form with name, purpose, expiry and consent. The demo does not transmit files to the recipient.
+## 5. Mechanical evidence and actual browser behavior
 
-Ruth: "The note should say this was a written explanation using fictional movements."
+The latest source passed 14/14 domain/API tests on 11 October after the copy/layout correction. Checks include approval-before-export, correction/new-review invalidation, expiration/revocation, missing-observation privacy, malformed restored-review recovery and closed model-request context. Provider responses in the suite are mocked; two real Gemini drafts from 7 October are separate evidence.
 
-Observed action: Codex requested that correction. The UI displayed Corrección solicitada, removed the approval/share path and kept the old recipient revoked. After a simulated reviewer amended the explanation, the UI returned Resultado privado and required a new candidate confirmation.
+The earlier real browser walkthrough with fictional records exercised correction -> new private review -> confirmation -> individual permission -> visible JSON/print preview -> revocation. The export changed from an unverified download-success toast to a visible copy with text selection/manual saving. Native browser download and OS Save as PDF were not verified. Reviewer observations in those records were simulated, never participant measurements.
 
-Ruth: "Can I take the copy back after someone downloads it?"
+## 6. Remaining issues and next real evidence
 
-Observed action: revocation removed the JSON/print controls for that recipient. The interface explicitly states downloaded copies cannot be recalled. This is a local future-export restriction, not remote deletion or cryptographic access control.
+The lower-priority purpose, illustrative timer/assistance copy, and written-question scheduling questions remain logged. Observe a real candidate interpreting blank task/assistance fields and a funded human reviewer before claiming validity. Verify actual employer preference against an existing cash work-sample and measured reviewer cost; test standard-browser file downloads and accessibility. Candidate records are device-local demo state, not authenticated private accounts. Do not enter real personal/client data.
 
-Ruth: "Does the record say I am employable?"
-
-Observed UI: the export says the case is fictional and does not establish identity, employability or hiring. The rubric describes evidence in this task and produces no overall score. A real reviewer could still misuse a document outside the app; this exercise cannot establish that external behavior.
-
-## 4. Actual browser observations
-
-A. Review and candidate-first result. Codex filled all four evidence notes, recorded written observation and confirmed the changed condition. Saving returned to the candidate view with a private result. A manually entered seven-minute value tested the timer field; it is not a measured human-review median.
-
-B. Accuracy and permission. Codex confirmed accuracy, then authorized the fictional Tienda Sol recipient for a stated purpose and 30-day period. The view showed the recipient, purpose, expiry and separate export/revoke controls.
-
-C. Export. The generated JSON was visible and contained the task version, reviewer, observed revision, assistance disclosure and exact recipient authorization. Its displayed contents were saved as evidence/FICTIONAL_PROOF_UM-001.json. The embedded browser's download event and file-link download timed out; a successful native browser download is not claimed. The visible text selection fallback was checked. The printable proof preview was observed; an OS Save as PDF file was not verified.
-
-D. Revocation and correction. Revocation removed export controls. The correction request kept the record private. A subsequent simulated review removed pending correction and required new confirmation, with the old permission still revoked.
-
-E. Missing AI secret. The real scope-assistant button showed that AI was not configured and the reviewed template remained available. No live provider call or generated scope is claimed.
-
-F. Narrow layout. The actual 446-pixel view stacked the sessions, reviewer facts, task and permission rules without horizontal overflow. This is a narrow-browser observation; it is not a full device/accessibility study.
-
-## 5. Product changes prompted by the exercise
-
-The initial export path automatically clicked a temporary link and showed a downloaded toast. The integrated browser did not produce a confirmed download. The revised path displays the exact JSON, exposes a download link and offers text selection with manual saving instructions. Toasts now say the copy is ready, not downloaded. Print preview stays in the current app rather than depending on a popup.
-
-Separately, the mechanical checks found a malformed restored review that could crash the result screen. A strengthened restore validator now rejects that structure and shows a recovery message with new fictional cases. The passing checks demonstrate those tested rules, not production security.
-
-## 6. What changed the operator's view
-
-Generated interpretation, not Rodrigo's personal testimony: a polished proof is insufficient unless review capacity and consent operations are viable. Corrections create more work and invalidate previous permission. The software can make that work visible; it cannot establish demand or create a paid first rung by itself. This preserves the individual brief's concern about income and paid Micro-experience.
-
-The proposed three-business/twelve-candidate pilot remains unperformed. Stop/redesign if fewer than two of three would pay to repeat, median review exceeds ten minutes, or observed explanations add no useful hiring information over the artifact alone.
-
-## 7. Next real validation
-
-Observe candidates explaining the actual task and consent choices; compare artifact-only and observed-proof decisions with employers; measure true reviewer time including corrections; check willingness to fund repetition; test written alternatives and assistive technology; verify export in standard browsers. These are next evidence tasks, not results in this report.
+Historical pre-Gemini missing-provider observations are preserved as history. The currently published app has real Gemini scope drafting; it never evaluates candidate answers. A synthetic persona and software tests cannot establish hiring demand, ability, fairness, payment or the proposed three-business/twelve-candidate pilot.

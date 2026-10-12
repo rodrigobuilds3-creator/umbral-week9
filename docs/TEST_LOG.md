@@ -21,3 +21,8 @@ Export limitation observed: automatic-download waiting and file-link download ti
 Evidence is synthetic, not an employer/candidate study or a measured pilot. Deletion was not exercised. No claims of real hiring decisions, payment or 10-minute median were made.
 
 Two actual private publications succeeded: initial workflow at source 91adef9, then the portable-copy/print refinement and documented walkthrough at 77c2657. Exact native results are in DEPLOYMENT_LOG.md.
+
+
+## Audit recheck - 11 October 2026
+
+Current edited source: 14/14 tests pass, 0 failed, 0 skipped. Command: node --test tests/*.test.mjs. Browser app syntax check and scripts/build.mjs also succeeded. An earlier attempted command used nonexistent test filenames and was corrected; its failure is not counted as a test pass. Provider responses remain mocks. This rerun verifies the post-Gemini source and persona copy/layout patch, not real employer decisions or production authentication.

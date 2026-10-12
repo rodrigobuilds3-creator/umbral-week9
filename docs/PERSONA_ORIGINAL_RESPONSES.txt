@@ -1,0 +1,149 @@
+Hola. Soy Ruth, tengo 24 años y ayudé a conciliar la caja en una tienda familiar, pero no tengo ningún título formal ni credencial de contabilidad. Prefiero explicar las cosas por escrito porque hablar me pone nerviosa, y lo que más miedo me da es que un error en estas pruebas llegue por accidente a un empleador real y me cierren las puertas.
+Aquí voy pantalla por pantalla, tal como veo las imágenes que me pasaste, explicando qué entiendo, qué haría, dónde dudaría y en qué punto me iría.
+Pantalla 1: La tarea inicial
+Qué creo que hace:
+Me presenta el ejercicio ficticio de conciliación de caja en "Tienda La Esquina". Muestra el efectivo inicial, las ventas, las devoluciones, los gastos y el depósito, además de la condición que cambia (la devolución que ahora se pagó a tarjeta).
+Qué haría después:
+Leer con calma los números para asegurarme de entender por qué la caja cambia cuando la devolución no se paga en efectivo.
+Dónde dudaría:
+Me confunde un poco ver que dice
+"Sin producción para clientes"
+pero al mismo tiempo usa un tono muy formal. Dudo cuando leo la frase:
+"Ejercicio sintético, montos y referencia revisados aritméticamente por el autor. No norma contable ni certificación."
+No sé si esto significa que yo no puedo equivocarme en la parte matemática o si es solo un juego.
+Punto de abandono:
+Si esta pantalla me exigiera conectar una cuenta bancaria real o instalar algo, aquí mismo cerraría la pestaña por miedo. Como es solo lectura, continúo con desconfianza.
+Pantalla 2: Explicación del candidato
+Qué creo que hace:
+Es el formulario donde escribo mi procedimiento inicial. Veo espacios para explicar el caso, lo que cambia con la devolución a tarjeta, y declarar asistencia de IA. Abajo hay un botón azul para enviar a revisión.
+Qué haría después:
+Escribiría mi procedimiento paso a paso (los 500 + 1890 - 120 - 250 - 1000 = 1020, y luego sumar los 120) y marcaría la casilla de autorización.
+Dónde dudaría:
+El texto prellenado en la casilla de asistencia dice:
+"Respuesta ficticia redactada por Codex para una demostración..."
+. Esto me genera mucha duda: ¿si yo uso mis propias palabras tengo que escribir algo así o el sistema ya lo pone solo? También dudo cuando veo la opción
+"Alternativa de explicación: Escrita, con preguntas del revisor"
+. No sé si eso implica que luego tendré que chatear en vivo con alguien.
+Punto de abandono:
+Si el botón de "Enviar a revisión" disparara un proceso donde mi perfil real quedara expuesto en una bolsa de trabajo sin avisarme claramente, abandonaría la prueba.
+Pantalla 3: Tu registro de la tarea (Resultado privado)
+Qué creo que hace:
+Muestra un resumen de lo que registré, indicando que está en un "Resultado privado" con una revisión simulada por Elena. Incluye botones para pedir corrección, ver el registro privado o eliminar el caso. Abajo hay una casilla para confirmar y mantener privado.
+Qué haría después:
+Leer los bloques para verificar que mis pasos (trazar movimientos, identificar evidencia, declarar asistencia) aparezcan tal como los escribí.
+Dónde dudaría:
+Aquí dudo mucho de la casilla que debo marcar:
+"Leí el registro y refleja correctamente esta tarea ficticia"
+. Siento que si marco esto, estoy firmando algo legal sin entender todas las consecuencias. Además, el texto inferior dice:
+"Resultado privado primero para el candidato"
+en una especie de tarjeta flotante oscura que tapa parte de la interfaz visual, lo cual me parece molesto y confuso.
+Punto de abandono:
+Si al hacer clic en "Confirmar y mantener privado" el sistema automáticamente publicara mi resultado en internet, me saldría de inmediato.
+Pantalla 4: Solicitar una corrección (Modal flotante)
+Qué creo que hace:
+Es una ventanita emergente para pedir cambios en el registro. Mantiene el documento en privado y revoca permisos anteriores mientras se corrige.
+Qué haría después:
+Escribiría en la caja de texto lo que quiero corregir, tal como aparece en el ejemplo (
+"Aclara que los 8 minutos..."
+).
+Dónde dudaría:
+Me confunde por qué el texto de ejemplo habla de "8 minutos" si en las pantallas anteriores no recuerdo haber visto mención de un límite de tiempo en minutos para hacer la tarea. Esto me hace dudar de si me perdí de algo importante o si el sistema está mezclando plantillas de otras pruebas.
+Punto de abandono:
+Si al enviar una corrección el sistema me penalizara o borrara todo lo que ya escribí, me daría tanta rabia que dejaría de intentarlo.
+Pantalla 5: Autorizar una copia (Modal flotante)
+Qué creo que hace:
+Permite otorgar acceso a un destinatario ficticio ("Cooperativa Demo") con una finalidad y una fecha de expiración específica.
+Qué haría después:
+Revisar la fecha de caducidad y hacer clic en el botón azul para autorizar al destinatario de prueba.
+Dónde dudaría:
+El aviso que dice
+"Entiendo que una copia descargada no se puede retirar"
+me da escalofríos. Aunque dice que es una demo, la idea de que alguien pueda descargar un documento con mi nombre y mis explicaciones sin poder borrarlo después es exactamente lo que me da miedo de que llegue a un empleador real por error.
+Punto de abandono:
+Si este cuadro apareciera sin la etiqueta clara de "demo" y me obligara a compartirlo con una empresa real para poder terminar, abandonaría la prueba en este mismo instante.
+Pantalla 6: Comprador / Vista para guardar PDF
+Qué creo que hace:
+Es la vista final consolidada que resume todo: los datos del candidato, el método de explicación, los pasos, la condición que cambió, la asistencia declarada, la autorización de la copia y los permisos activos. Ofrece botones para JSON, Imprimir PDF o Revocar.
+Qué haría después:
+Vería que todo esté ordenado y, si quisiera practicar, simularía guardar el PDF localmente sabiendo que no se envía solo.
+Dónde dudaría:
+El texto superior dice:
+"Caso ficticio. No acredita evaluación real, identidad, empleabilidad ni contratación."
+Por un lado me tranquiliza, pero por otro me hace pensar: si no acredita nada y no sirve para conseguir trabajo, ¿por qué la interfaz se ve tan tensa y formal como si me estuvieran juzgando de verdad? Eso me genera una sensación de pérdida de tiempo.
+Punto de abandono:
+Si en lugar de un PDF local el sistema intentara enviar mis datos a un servidor externo sin mi autorización explícita, cerraría la ventana.
+Lista de TODAS las confusiones detectadas:
+Confusión de tono y propósito (Pantallas 1 y 6):
+El texto dice
+"Sin producción para clientes"
+y
+"No acredita empleabilidad"
+, pero la interfaz imita un proceso de contratación real muy estresante, lo que contradice la supuesta tranquilidad de ser una demo.
+Instrucciones fantasma sobre el tiempo (Pantalla 4):
+En el ejemplo de corrección se mencionan
+"los 8 minutos"
+, pero en ninguna parte anterior de la tarea se explica de dónde salen esos minutos ni si son una evaluación de velocidad.
+Falta de claridad en la asistencia de IA (Pantalla 2):
+El texto prellenado habla de
+"Redactada por Codex para una demostración"
+, lo que confunde a una usuaria real sobre si debe escribir eso tal cual o si es un error del sistema.
+Temor por la permanencia de los datos (Pantallas 3 y 5):
+Las advertencias sobre
+"una copia descargada no se puede retirar"
+y la necesidad de firmar un registro privado generan desconfianza sobre si la información puede filtrarse a un empleador real.
+Superposición visual (Pantalla 3):
+El cuadro flotante oscuro
+"Resultado privado primero para el candidato"
+se cruza visualmente con el contenido inferior, dificultando la lectura cómoda.
+Prioridad de la peor confusión:
+La peor confusión es la
+contradicción entre las advertencias de privacidad (Pantallas 3 y 5) y el miedo personal de la candidata a que sus datos lleguen a un empleador real
+. Aunque la interfaz repite la palabra "demo", los mensajes sobre no poder retirar copias descargadas y tener que confirmar registros generan un riesgo psicológico alto para alguien que teme equivocarse frente a un trabajo real.
+¿Cómo verificaría una corrección con otra captura?
+Para comprobar que una corrección se aplicó correctamente y que el sistema ya no muestra información ambigua, buscaría en una nueva captura de la
+Pantalla 3 o Pantalla 6
+lo siguiente:
+Que el bloque de la "Asistencia declarada" refleje exactamente lo que el usuario escribió (por ejemplo, aclarando lo de los 8 minutos o la autoría) sin dejar textos genéricos de IA que no corresponden.
+Que el estado del registro indique claramente que los permisos siguen en modo "privado" o "ficticio" antes de que cualquier usuario deprima un botón de compartir.
+
+RETEST
+
+Hola de nuevo. Soy Ruth, sigo teniendo 24 años, sigo prefiriendo explicar por escrito y sigo con el mismo miedo a que un error mío termine en manos de un empleador real.
+
+Aquí tengo la nueva captura que me pasaste (la pantalla de resultado privado, ahora con el caso "Ruth (caso ficticio) · UM-001"). Voy a revisarla exactamente igual que antes, sin dar por sentado que todo está perfecto solo porque me la mandaste.
+
+¿Qué dice ahora la casilla y el texto de confirmar?
+
+El texto encima de la casilla dice: "Confirmar solo indica que el registro es correcto. No autoriza compartir ni envía nada a un empleador. Puedes dejarlo privado y terminar aquí."
+
+El texto de la casilla dice: "Revisé la exactitud de este registro ficticio. Esta casilla no autoriza compartirlo."
+
+El botón azul dice: "Confirmar y mantener privado"
+
+¿Qué creo que sucede al confirmar?
+
+Al hacer clic en el botón azul "Confirmar y mantener privado", entiendo que el sistema guarda mi aprobación interna de que el ejercicio de conciliación de caja (los $1,020 que suben a $1,140 al quitar la devolución de efectivo) está bien redactado según mis pasos, pero se queda encerrado en mi navegador o en el espacio privado de la plataforma de prueba.
+
+No debería enviarse a ninguna empresa ni publicarse en ninguna parte, ya que el texto es muy enfático en decir que no autoriza compartir ni envía nada.
+
+¿Persiste el miedo a enviar automáticamente?
+
+Sí, pero un poco menos que antes.
+El miedo principal de que la plataforma haga algo a mis espaldas disminuye al leer con claridad que "Esta casilla no autoriza compartirlo" y "Puedes dejarlo privado y terminar aquí". Sin embargo, como sigo sin ser una experta en tecnología y me da terror que un fallo de software mande mis datos por error, todavía tengo la precaución de dudar. Mi desconfianza natural no desaparece solo porque el texto ahora sea más amable o tranquilizador.
+
+¿Puedes terminar y conservarlo privado?
+
+A nivel visual y de lectura, sí.
+La pantalla indica explícitamente que puedes dejarlo privado y terminar ahí. El botón azul dice claramente "Confirmar y mantener privado", y abajo se ve que el permiso con "Tienda Sol" está en estado "Revocado". Da la sensación de que el ciclo termina de forma segura y controlada dentro de la demo.
+
+Dudas restantes:
+
+¿Qué pasa después de confirmar? Una vez que hago clic en el botón azul, no sé si la pantalla me muestra un mensaje de despedida, si me deja descargar un comprobante por si acaso, o si simplemente me deja bloqueada en la misma vista sin saber qué hacer.
+
+¿De verdad es totalmente local? Aunque la parte superior dice "Datos guardados solo en este navegador", para alguien sin conocimientos técnicos avanzados siempre queda la duda silenciosa de si "la nube" o los creadores de la plataforma están viendo lo que escribí.
+
+Detalles que no se pueden demostrar solo por una captura:
+
+El comportamiento real del botón: Una imagen fija no puede demostrar si al hacer clic en "Confirmar y mantener privado" realmente se queda todo guardado de forma local o si ocurre alguna redirección inesperada o error de carga.
+
+El destino de los datos: No puedo comprobar con certeza absoluta si los textos que redacté sobre cómo conciliar la caja se borran realmente al cerrar el navegador o si se quedan almacenados en algún servidor remoto fuera de mi control.
